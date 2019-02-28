@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="source/jquery.mobile-1.4.5.min.css">
+	<script src="source/jquery-1.11.1.min.js"></script>
+	<script type="text/javascript">
+		//解决低版本谷歌浏览器的安全限制
+		$(document).bind('mobileinit',function(){
+			$.mobile.changePage.defaults.changeHash = false;
+			$.mobile.hashListeningEnabled = false;
+			$.mobile.pushStateEnabled = false;
+		});
+		$(function(){
+			$('.ui-content').height($(window).height());
+			$('.bg').height($(window).height());
+		})
+	</script>
+	<script src="source/jquery.mobile-1.4.5.min.js"></script>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<style>
+		*{
+			font-family: "nokia-pure-headline-ultralight",Arial,Helvetica,sans-serif!important;
+			text-shadow: none!important;
+		}
+		.ui-content{
+			background-image:url(img/pexels-photo-360438.jpeg)!important;
+			background-position:50% 50%;
+			padding: 0;
+		}
+		.bg{
+			background-color: rgba(0,0,0,.7);
+			width: 100%;
+			text-align: center;
+			position: relative;
+		}
+		.bg>div{
+			position: absolute;
+			top: 30%;
+			width: 100%;
+		}
+		.bg>h2{
+			position: absolute;
+			top: 15%;
+			left: 18%;
+			color: #fff;
+		}
+		.bg form{
+			text-align: left;
+			position: absolute;
+			top: 20%;
+			width: 60%;
+			margin: 0 20%;
+			color: #fff;
+		}
+		.ui-page-theme-a .ui-body-inherit{
+			padding-left: 2.5em!important;
+			background: url(img/手机.png) no-repeat;
+			background-position: 5% 50%;
+			color: #fff;
+		}
+		.ui-page-theme-a .ui-body-inherit:nth-of-type(2){
+			background: url(img/锁.png) no-repeat;
+			background-position: 5% 50%;
+		}
+		.ui-input-btn{
+			background-color: rgba(0,0,0,.8)!important;
+			color: #fff!important;
+		}
+		.ui-content .tips{
+			width: 100%;
+			background-color: rgba(65,105,225,.8);
+			text-align: center;
+			color: #fff;
+			font-weight: bold;
+			font-size: 1rem;
+			position: fixed;
+			z-index: 999;
+			top: -20%;
+			padding: .3em 0;
+		}
+	</style>
+	<script>
+		$(function(){
+			$('#bt').click(function(event) {
+				if($('input').val()==""){
+					$('.ui-content .tips').animate({"top":"0%"});
+				setTimeout(function(){
+				$('.ui-content .tips').animate({"top":"-20%"})
+				},2000);
+				}else{
+					window.location.href = "index.html";
+				}
+			});
+		})
+	</script>
+</head>
+<body>
+	<div data-role="page" id="home">
+		<div data-role="main" class="ui-content">
+			<div class="tips">
+				<p>登陆账号与密码不能为空！</p>
+			</div>
+			<div class="bg">
+				<form method="post" data-ajax="false" onsubmit="return false">
+				    <div>
+				      <h3>请使用手机号登录</h3>
+				      <label for="usrnm" class="ui-hidden-accessible">手机号:</label>
+				      <input type="text" name="user" id="usrnm" placeholder="手机号">
+				      <label for="pswd" class="ui-hidden-accessible">密码:</label>
+				      <input type="password" name="passw" id="pswd" placeholder="密码">
+				      <a href="#" style="text-align: right;display: block;text-decoration: none;color:#ccc;font-weight: normal;font-size: .8em;">忘记密码？</a>
+				      <input type="submit" value="登录" id="bt" />
+				    </div>
+			  </form>
+			</div>
+		</div>
+	</div>
+</body>
+</html>

@@ -1,0 +1,854 @@
+<!doctype html>
+<html lang="zh">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nokia</title>
+    <link rel="stylesheet" type="text/css" href="css/normalize.css"/>
+    <link rel="stylesheet" type="text/css" href="css/default.css">
+    <link rel="stylesheet" type="text/css" href="css/styles.css">
+    <!--[if IE]>
+    <script src="http://libs.baidu.com/html5shiv/3.7/html5shiv.min.js"></script>
+    <![endif]-->
+    <link rel="stylesheet" href="source/jquery.mobile-1.4.5.min.css"/>
+    <script src="source/jquery-1.11.1.min.js"></script>
+    <script type="text/javascript">
+        $(document).bind('mobileinit', function () {
+            $.mobile.pushStateEnabled = false;
+        });
+
+
+    </script>
+    <script src="source/jquery.mobile-1.4.5.min.js"></script>
+    <link rel="stylesheet" href="source/style.css">
+    <script src="source/myjq.js"></script>
+</head>
+<body>
+<div class="demo" data-role="page" id="home">
+    <div class="demo__close-menu"></div>
+    <div class="demo__section demo__section-1" data-section="1">
+        <div class="demo__menu-btn"></div>
+        <div data-role="header" class="sheight">
+            <a href="#anylink" class="ui-btn ui-icon-logo ui-btn-icon-top ui-btn-right ui-nodisc-icon nobg"></a>
+        </div>
+        <div data-role="main">
+            <div class="navigation-bar">
+                <div data-role="collapsible" data-iconpos="right" data-collapsed-icon="xia" data-expanded-icon="shang"
+                     class="nobg ui-nodisc-icon">
+                    <h1>Nokia X6</h1>
+                    <ul data-role="listview">
+                        <li data-icon="false"><a href="#Section_1" data-ajax="false">设计</a></li>
+                        <li data-icon="false"><a href="#Section_2" data-ajax="false">屏幕</a></li>
+                        <li data-icon="false"><a href="#Section_3" data-ajax="false">相机</a></li>
+                        <li data-icon="false"><a href="#Section_4" data-ajax="false">硬件</a></li>
+                        <li data-icon="false"><a href="#product" data-ajax="false">软件</a></li>
+                        <li data-icon="false"><a href="#">设计参数</a></li>
+                    </ul>
+                </div>
+                <a href="#" class="ui-btn">立即购买</a>
+            </div>
+            <div class="Section" id="Section_1">
+                <img src="img/01_Carousel_X6_mobile-longer.jpg" alt="">
+                <h1>Nokia X6</h1>
+                <h1>越级体验</h1>
+                <div class="ui-grid-b">
+                    <div class="ui-block-a">
+                        <a href="#" class="ui-btn ui-icon-nav1 ui-btn-icon-top nobg topnav">高通骁龙<br>处理器</a>
+                    </div>
+                    <div class="ui-block-b">
+                        <a href="#" class="ui-btn ui-icon-nav2 ui-btn-icon-top ui-alt-icon nobg topnav">5.8英寸FHD+<br>屏幕</a>
+                    </div>
+                    <div class="ui-block-c">
+                        <a href="#" class="ui-btn ui-icon-nav3 ui-btn-icon-top ui-alt-icon nobg topnav">16MP+5MP<br>后置双摄</a>
+                    </div>
+                </div>
+                <a href="#NokiaX6" class="ui-btn" data-role="none" data-rel="popup" id="vid">了解详情</a>
+                <div data-role="popup" id="NokiaX6" data-position-to="window" data-overlay-theme="b">
+                    <video controls="controls" playsinline -webkit-playsinline id="myvideo">
+                        <source src="img/5assMuET-29743566.mp4"/>
+                    </video>
+                </div>
+            </div>
+            <div class="Section" id="Section_2">
+                <img src="img/X6_backround_02_mobile.jpg" alt="">
+                <div class="ui-grid-c">
+                    <div class="ui-block-a">
+                        <a href="#"
+                           class="ui-btn ui-icon-android ui-btn-icon-top ui-nodisc-icon nobg topnav">原生Android<br>8.1*</a>
+                    </div>
+                    <div class="ui-block-b">
+                        <a href="#" class="ui-btn ui-icon-CPU ui-btn-icon-top ui-nodisc-icon ui-alt-icon nobg topnav">高通骁龙636</a>
+                    </div>
+                    <div class="ui-block-c">
+                        <a href="#"
+                           class="ui-btn ui-icon-pingmu ui-btn-icon-top ui-nodisc-icon ui-alt-icon nobg topnav">5.8英寸FHD+<br>屏幕</a>
+                    </div>
+                    <div class="ui-block-d">
+                        <a href="#"
+                           class="ui-btn ui-icon-xiangsu ui-btn-icon-top ui-nodisc-icon ui-alt-icon nobg topnav">屏幕像素密度<br>432ppi</a>
+                    </div>
+                    <div class="ui-block-a">
+                        <a href="#" class="ui-btn ui-icon-deng ui-btn-icon-top ui-nodisc-icon nobg topnav">16MP+5MP<br>后置双摄</a>
+                    </div>
+                    <div class="ui-block-b">
+                        <a href="#"
+                           class="ui-btn ui-icon-shexiang ui-btn-icon-top ui-nodisc-icon ui-alt-icon nobg topnav">16MP<br>前置摄像头</a>
+                    </div>
+                    <div class="ui-block-c">
+                        <a href="#"
+                           class="ui-btn ui-icon-AI ui-btn-icon-top ui-nodisc-icon ui-alt-icon nobg topnav">智能<br>AI</a>
+                    </div>
+                    <div class="ui-block-d">
+                        <a href="#" class="ui-btn ui-icon-tu ui-btn-icon-top ui-nodisc-icon ui-alt-icon nobg topnav">HDR<br>图像处理</a>
+                    </div>
+                </div>
+            </div>
+            <div class="Section" id="Section_3">
+                <img src="img/X6_backround_14_mobile.jpg" alt="">
+                <div>
+                    <h1>续航持久 更能快人一步</h1>
+                    <p>内置3060mAh电池，续航持久 发微信、打游戏、听音乐、看视频 多程序全天在线，电量仍无压力 支持QC3.0标准的18W快速充电器
+                        只需30分钟即可完成快速充电50%，越级体验，无惧中断</p>
+                    <p style="font-size: .6em;margin-top: 1em;">* 快速充电适配器需要自行购买</p>
+                </div>
+            </div>
+            <div class="Section" id="Section_4">
+                <img src="img/X6_backround_15_mobile.jpg" alt="">
+                <div>
+                    <h1>智能便捷 无处不在的贴心服务体验</h1>
+                    <ul>
+                        <li>智能识屏，双指长按屏幕就可以将文章或对话分解为易于选取的字和词，轻松实现复制、搜索</li>
+                        <li>导航栏隐藏，界面空间得到进一步延展，视觉感受更为清爽</li>
+                        <li>支持应用双开，您可同时使用两个账户登录，界面上将显示为两个不同的图标</li>
+                        <li>双VoLTE高清通话，更快接通速度，更好地通话质量，边通话边上网，体验升级</li>
+                        <li>优化省电管理，提升续航能力，电力更加持久</li>
+                        <li>一键“关机/重新启动”，方便单手操作，快捷与独特兼具</li>
+                        <li>一键可对照片进行“九宫格”编辑，让分享更有趣</li>
+                    </ul>
+                    <div class="ui-grid-b">
+                        <div class="ui-block-a">
+                            <a href="#" class="ui-btn ui-icon-daohang ui-btn-icon-top nobg topnav">导航栏隐藏</a>
+                        </div>
+                        <div class="ui-block-b">
+                            <a href="#" class="ui-btn ui-icon-shibie ui-btn-icon-top ui-alt-icon nobg topnav">智能识屏</a>
+                        </div>
+                        <div class="ui-block-c">
+                            <a href="#"
+                               class="ui-btn ui-icon-shengdian ui-btn-icon-top ui-alt-icon nobg topnav">省电管理</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div id="product">
+                <h4>详细资料</h4>
+                <h2>Nokia X6</h2>
+                <div id="img_show">
+                    <a href="#"><img src="img/nokia_x6-details-black.jpg" alt=""></a>
+                    <a href="#"><img src="img/nokia_x6-details-white.jpg" alt=""></a>
+                    <a href="#"><img src="img/nokia_x6-details-blue.jpg" alt=""></a>
+                </div>
+                <h4 style="margin-top: 3em;">颜色</h4>
+                <ul>
+                    <li><span style="background-color: #000;"></span></li>
+                    <li><span style="background-color: #888;"></span></li>
+                    <li><span style="background-color: #124191;"></span></li>
+                </ul>
+                <div id="tablan">
+                    <a href="#" class="ui-btn" data-role="none">内部</a>
+                    <a href="#" class="ui-btn" data-role="none">外观</a>
+                </div>
+                <div id="tab_show">
+                    <div>
+                        <ul>
+                            <li>强大的智能AI成像体验</li>
+                            <li>HDR图片模式</li>
+                            <li>实时更新的安卓Oreo系统</li>
+                            <li>高通骁龙636</li>
+                            <li>4GB RAM+32/64 GB ROM，6 GB RAM+64 GB ROM MicroSD 卡支持最大存储扩展容量256GB</li>
+                        </ul>
+                    </div>
+                    <div>
+                        <ul>
+                            <li>5.8英寸19:9FHD+康宁大猩猩屏幕</li>
+                            <li>1600万+500万后置双摄</li>
+                            <li>1600万前置美颜相机</li>
+                            <li>95%机身玻璃覆盖</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div data-role="footer" style="background-color: #eee!important;">
+            <p>&copy; 2018 HMD Global. All rights reserved.</p>
+            <p>HMD Global Oy is the exclusive licensee of the Nokia brand for phones & tablets.</p>
+        </div>
+    </div>
+    <div class="demo__section demo__section-2 active" data-section="2">
+        <div class="demo__menu-btn"></div>
+        <div data-role="header">
+            <a href="#anylink" class="ui-btn ui-icon-logo ui-btn-icon-top ui-btn-right ui-nodisc-icon nobg"></a>
+        </div>
+        <div data-role="main">
+            <!--lunbo-->
+            <div id="lunbo">
+                <a href="#"><img src="img/nokia_1.jpg" alt=""></a>
+                <a href="#"><img src="img/nokia_2.jpg" alt=""></a>
+                <a href="#"><img src="img/nokia_3.jpg" alt=""></a>
+            </div>
+            <!--lunbo-->
+            <!--了解诺基亚-->
+            <div id="know">
+                <h1>We create the technology to connect the world</h1>
+                <p>Nokia is shaping the technologies at the heart of our connected world, to transform the human
+                    experience</p>
+                <ul data-role="listview" data-inset="true" data-filter="true" data-input="#myFilter">
+                    <li data-icon="arrowr" class="ui-nodisc-icon"><a href="#who" data-rel="popup">Who we are</a></li>
+                    <div data-role="popup" id="who" style="width: 100%" data-position-to="window"
+                         data-overlay-theme="b">
+                        <h1>We create the technology to connect the world</h1>
+                        <p>Powered by the research and innovation of Nokia Bell Labs, we serve communications service
+                            providers, governments, large enterprises and consumers, with the industry's most complete,
+                            end-to-end portfolio of products, services and licensing. We adhere to the highest ethical
+                            business standards as we create technology with social purpose, quality and integrity. Nokia
+                            is enabling the infrastructure for 5G and the Internet of Things to transform the human
+                            experience.</p>
+                        <h2>More about us</h2>
+                        <div class="navigation">
+                            <a href="#">< </a>
+                            <div class="pagination">
+                                <span>1</span> / <span>4</span>
+                            </div>
+                            <a href="#"> ></a>
+                        </div>
+                        <div class="carousel-content">
+                            <div>
+                                <h4>Who we are</h4>
+                                <h3>What we do</h3>
+                                <p>Learn about our full range of products and solutions. </p>
+                            </div>
+                            <div>
+                                <img src="img/leadership.jpg" alt="" style="width: 100%">
+                                <h4>Who we are</h4>
+                                <h3>Leadership</h3>
+                            </div>
+                            <div>
+                                <img src="img/history.png" alt="" style="width: 100%">
+                                <h4>Who we are</h4>
+                                <h3>Our history</h3>
+                            </div>
+                            <div>
+                                <img src="img/awards.jpg" alt="" style="width: 100%">
+                                <h4>Who we are</h4>
+                                <h3>Our awards</h3>
+                            </div>
+                        </div>
+                    </div>
+                    <li data-icon="arrowr" class="ui-nodisc-icon"><a href="#News" data-rel="popup">News & event</a></li>
+                    <div data-role="popup" id="News" style="width: 100%" data-position-to="window"
+                         data-overlay-theme="b">
+                        <h1>Nokia news and events</h1>
+                        <ul data-role="listview" data-inset="true" data-filter="true" data-input="#myFilter">
+                            <li data-icon="arrowr" class="ui-nodisc-icon"><a href="#who" data-rel="popup">News
+                                archive</a></li>
+                            <li data-icon="arrowr" class="ui-nodisc-icon"><a href="#who" data-rel="popup">Reports and
+                                filings</a></li>
+                            <li data-icon="arrowr" class="ui-nodisc-icon"><a href="#who" data-rel="popup">Public
+                                policies for a connected world</a></li>
+                            <li data-icon="arrowr" class="ui-nodisc-icon"><a href="#who" data-rel="popup">Events
+                                calendar</a></li>
+                        </ul>
+                        <div class="ui-grid-solo">
+                            <div class="ui-block-a">
+                                <div>
+                                    <p>5G</p>
+                                    <h2>Creating a new era of communication</h2>
+                                </div>
+                            </div>
+                            <div class="ui-block-a">
+                                <div>
+                                    <p>Internet of things</p>
+                                    <h2>Expand the possibilities of our connected lives</h2>
+                                </div>
+                            </div>
+                        </div>
+                        <h2>Contact us or browse through our library</h2>
+                        <div class="ui-grid-solo">
+                            <div class="ui-block-a">
+                                <div>
+                                    <h3>Media contacts</h3>
+                                    <p>For all media related inquiries and assistance, please view our list of media
+                                        contacts.</p>
+                                    <a href="#"><img src="img/arrow-r.png" alt=""></a>
+                                </div>
+                            </div>
+                            <div class="ui-block-a">
+                                <div>
+                                    <h3>Media library</h3>
+                                    <p>For all media relates files and assets, please visit our media library.</p>
+                                    <a href="#"><img src="img/arrow-r.png" alt=""></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <li data-icon="arrowr" class="ui-nodisc-icon"><a href="#Investors" data-rel="popup">Investors</a>
+                    </li>
+                    <div data-role="popup" id="Investors" style="width: 100%" data-position-to="window"
+                         data-overlay-theme="b">
+                        <h1>Nokia investor relations</h1>
+                        <p>Nokia is a multinational communications and information technology company, headquartered in
+                            Espoo, Finland. We are a public limited-liability company listed on the Nasdaq Helsinki,
+                            Euronext Paris and New York Stock Exchange.</p>
+                        <h2>Q1 Earnings materials</h2>
+                        <div class="ui-grid-solo">
+                            <div class="ui-block-a">
+                                <div>
+                                    <p>File name</p>
+                                    <h5>2018 Q1 Earnings</h5>
+                                    <p>Release date</p>
+                                    <h5>Apr 26, 2018</h5>
+                                    <p>Type</p>
+                                    <a href="#"
+                                       class="ui-btn ui-icon-download ui-btn-icon-left ui-nodisc-icon ui-btn-inline nobg">Download(1.49MB)</a>
+                                </div>
+                            </div>
+                            <div class="ui-block-a">
+                                <div>
+                                    <p>File name</p>
+                                    <h5>2018 Q1 Earnings</h5>
+                                    <p>Release date</p>
+                                    <h5>Apr 26, 2018</h5>
+                                    <p>Type</p>
+                                    <a href="#"
+                                       class="ui-btn ui-icon-download ui-btn-icon-left ui-nodisc-icon ui-btn-inline nobg">Download(1.49MB)</a>
+                                </div>
+                            </div>
+                            <div class="ui-block-a">
+                                <div>
+                                    <p>File name</p>
+                                    <h5>2018 Q1 Earnings</h5>
+                                    <p>Release date</p>
+                                    <h5>Apr 26, 2018</h5>
+                                    <p>Type</p>
+                                    <a href="#"
+                                       class="ui-btn ui-icon-download ui-btn-icon-left ui-nodisc-icon ui-btn-inline nobg">Download(1.49MB)</a>
+                                </div>
+                            </div>
+                        </div>
+                        <h2>Quarterly results</h2>
+                        <form method="post" action="demoform.html">
+                            <fieldset class="ui-field-contain">
+                                <label for="day" class="ui-hidden-accessible">Select Day</label>
+                                <select name="day" id="day" data-icon="down" class="ui-nodisc-icon">
+                                    <option value="mon">Earnings release</option>
+                                    <option value="tue">2018 Q1 Earnings</option>
+                                    <option value="wed">2018 Q1 Earnings</option>
+                                </select>
+                            </fieldset>
+                        </form>
+                        <fieldset class="ui-field-contain">
+                            <label for="day" class="ui-hidden-accessible">Select Day</label>
+                            <select name="day" id="day" data-icon="down" class="ui-nodisc-icon">
+                                <option value="mon">Presentation</option>
+                                <option value="tue">2018 Q1 Earnings</option>
+                                <option value="wed">2018 Q1 Earnings</option>
+                            </select>
+                        </fieldset>
+                        </form>
+                        <fieldset class="ui-field-contain">
+                            <label for="day" class="ui-hidden-accessible">Select Day</label>
+                            <select name="day" id="day" data-icon="down" class="ui-nodisc-icon">
+                                <option value="mon">Tables</option>
+                                <option value="tue">2018 Q1 Earnings</option>
+                                <option value="wed">2018 Q1 Earnings</option>
+                            </select>
+                        </fieldset>
+                        </form>
+                        <fieldset class="ui-field-contain">
+                            <label for="day" class="ui-hidden-accessible">Select Day</label>
+                            <select name="day" id="day" data-icon="down" class="ui-nodisc-icon">
+                                <option value="mon">Webcast</option>
+                                <option value="tue">2018 Q1 Earnings</option>
+                                <option value="wed">2018 Q1 Earnings</option>
+                            </select>
+                        </fieldset>
+                        </form>
+                        <h2>Stock exchange releases</h2>
+                        <p style="font-size: .9em;color:#ccc;text-shadow: none;">Updated: 31.05.2018 · 14:15 EEST</p>
+                        <div class="navigation">
+                            <a href="#">< </a>
+                            <div class="pagination">
+                                <span>1</span> / <span>4</span>
+                            </div>
+                            <a href="#"> ></a>
+                        </div>
+                        <div class="carousel-content">
+                            <div>
+                                <h4>31 May 2018</h4>
+                                <h4>Nokia announces a change in the composition of the Nokia Group Leadership Team</h4>
+                            </div>
+                            <div>
+                                <h4>30 May 2018</h4>
+                                <h4>Resolutions of the Nokia Annual General Meeting 2018, Nokia Board of Directors
+                                    established a Technology Committee</h4>
+                            </div>
+                            <div>
+                                <h4>15 May 2018</h4>
+                                <h4>Nokia appoints Sri Reddy as co-president of IP/Optical Networks (ION) business group
+                                    and as member of the Nokia Group Leadership Team</h4>
+                            </div>
+                            <div>
+                                <h4>26 Apr 2018</h4>
+                                <h4>Nokia Corporation Interim Report for Q1 2018</h4>
+                            </div>
+                        </div>
+                    </div>
+                    <li data-icon="arrowr" class="ui-nodisc-icon"><a href="#Careers" data-rel="popup">Careers</a></li>
+                    <div data-role="popup" id="Careers" style="width: 100%" data-position-to="window"
+                         data-overlay-theme="b">
+                        <h1>Create the technology to connect the world</h1>
+                        <ul data-role="listview" data-inset="true" data-filter="true" data-input="#myFilter">
+                            <li data-icon="arrowr" class="ui-nodisc-icon"><a href="#who" data-rel="popup">Open jobs</a>
+                            </li>
+                            <li data-icon="arrowr" class="ui-nodisc-icon"><a href="#who" data-rel="popup">Life at
+                                Nokia</a></li>
+                            <li data-icon="arrowr" class="ui-nodisc-icon"><a href="#who" data-rel="popup">Employee
+                                blogs</a></li>
+                            <li data-icon="arrowr" class="ui-nodisc-icon"><a href="#who" data-rel="popup">Currently
+                                seeking</a></li>
+                        </ul>
+                        <div class="ui-grid-solo">
+                            <div class="ui-block-a">
+                                <div>
+                                    <h2>Find the right position for you</h2>
+                                    <a href="#"
+                                       class="ui-btn ui-btn ui-icon-arrowr ui-btn-icon-right ui-nodisc-icon ui-btn-inline">View
+                                        our open jobs</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="follow">
+                            <h3>Follow our careers community on:</h3>
+                            <a href="#"
+                               class="ui-btn ui-btn ui-icon-facebook ui-btn-icon-right ui-nodisc-icon ui-btn-inline nobg"></a>
+                            <a href="#"
+                               class="ui-btn ui-btn ui-icon-Twitter ui-btn-icon-right ui-nodisc-icon ui-btn-inline nobg"></a>
+                            <a href="#"
+                               class="ui-btn ui-btn ui-icon-IN ui-btn-icon-right ui-nodisc-icon ui-btn-inline nobg"></a>
+                            <a href="#"
+                               class="ui-btn ui-btn ui-icon-glassdoor ui-btn-icon-right ui-nodisc-icon ui-btn-inline nobg"></a>
+                        </div>
+                    </div>
+                </ul>
+            </div>
+            <!--了解结束-->
+            <div class="grid-container">
+                <ul data-role="listview">
+                    <li style="border-top:none; ">
+                        <span>For consumers</span>
+                        <ul data-role="listview">
+                            <li data-icon="false"><a href="#">Phones</a></li>
+                            <li data-icon="false"><a href="#">Health</a></li>
+                            <li data-icon="false"><a href="#">OZO audio</a></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <span>For business</span>
+                        <ul data-role="listview">
+                            <li data-icon="false"><a href="#">Networks</a></li>
+                            <li data-icon="false"><a href="#">Health solutions</a></li>
+                            <li data-icon="false"><a href="#">Media technologies</a></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <span>Innovation</span>
+                        <ul data-role="listview">
+                            <li data-icon="false"><a href="#">Innovation at Nokia</a></li>
+                            <li data-icon="false"><a href="#">Nokia Bell Labs</a></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <span>About</span>
+                        <ul data-role="listview">
+                            <li data-icon="false"><a href="#">About Nokia</a></li>
+                            <li data-icon="false"><a href="#">News and events</a></li>
+                            <li data-icon="false"><a href="#">Blog</a></li>
+                            <li data-icon="false"><a href="#">Careers</a></li>
+                            <li data-icon="false"><a href="#">Investors</a></li>
+                            <li data-icon="false"><a href="#">Sustainability</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+            <div data-role="footer">
+                <p>&copy; 2018 HMD Global. All rights reserved.</p>
+                <p>HMD Global Oy is the exclusive licensee of the Nokia brand for phones & tablets.</p>
+            </div>
+        </div>
+    </div>
+    <div class="demo__section demo__section-3 inactive" data-section="3">
+        <div class="demo__menu-btn"></div>
+        <div data-role="header">
+            <a href="#anylink" class="ui-btn ui-icon-logo ui-btn-icon-top ui-btn-right ui-nodisc-icon nobg"></a>
+        </div>
+        <div data-role="main">
+            <div id="innovation">
+                <video autoplay="autoplay" loop="loop" playsinline -webkit-playsinline>
+                    <source src="img/nokia_-_1428_-_innovation_web_film_v7b_1.mp4"/>
+                </video>
+                <div class="text-wrapper">
+                    <h1>Nokia innovation</h1>
+                    <p>Driven by the startup spirit and potential of the Future X network, we are determined to connect
+                        the world through collaboration and ongoing innovations across Nokia and beyond</p>
+                </div>
+            </div>
+            <div class="ui-grid-solo">
+                <div class="ui-block-a">
+                    <div>
+                        <h3>Developing disruptive research for the next phase of human existence</h3>
+                        <a href="#" class="ui-btn ui-btn ui-icon-wl ui-btn-icon-right ui-nodisc-icon ui-btn-inline">Explore
+                            Nokia Bell Labs</a>
+                    </div>
+                </div>
+            </div>
+            <div class="lift-up">
+                <div class="navigation">
+                    <a href="#">< </a>
+                    <div class="pagination">
+                        <span>1</span> / <span>6</span>
+                    </div>
+                    <a href="#"> ></a>
+                </div>
+                <div class="carousel-content">
+                    <div>
+                        <img src="img/research_future_x_liftup.jpg" alt="">
+                        <p>Future X Vision</p>
+                        <h4>Discover the network that will connect everything and everyone</h4>
+                    </div>
+                    <div>
+                        <img src="img/programs_bl_prize_liftup.jpg" alt="">
+                        <p>Competition</p>
+                        <h4>Change the game and win the chance to collaborate with Nokia Bell Labs</h4>
+                    </div>
+                    <div>
+                        <img src="img/future_human_liftup_crop.jpg" alt="">
+                        <p>Future human</p>
+                        <h4>Listen to interviews with innovators who are shaping our digital future</h4>
+                    </div>
+                    <div>
+                        <img src="img/bl_dap_1.jpg" alt="">
+                        <p>Collaboration</p>
+                        <h4>See how we're collaborating with leading academic institutions</h4>
+                    </div>
+                    <div>
+                        <img src="img/art_tech-liftup.jpg" alt="">
+                        <p>Experiments in Art and Technology</p>
+                        <h4>Fusing the powers of art and technology to transform human experience</h4>
+                    </div>
+                    <div>
+                        <img src="img/oi_city_03_hr_rgb.jpg.1080x505_q60_crop.jpg" alt="">
+                        <p>Collaboration</p>
+                        <h4>Nokia Bell Labs and University of Helsinki make MegaSense</h4>
+                    </div>
+                </div>
+                <div class="ui-grid-solo">
+                    <div class="ui-block-a">
+                        <img src="img/future_x_video_still_crop.jpg" alt="">
+                        <p>Take a peek inside a massively scalable, ultrahigh capacity, ultralow latency, dynamic new
+                            network infrastructure: The Future X Network.</p>
+                        <a href="#" class="ui-btn ui-btn ui-icon-play ui-btn-icon-left ui-nodisc-icon ui-btn-inline">Welcome
+                            to the Future X Network</a>
+                    </div>
+                </div>
+            </div>
+            <div class="ui-grid-solo">
+                <div class="ui-block-a" style="background-image: url(img/innovate_with_liftup_gradient_2.jpg);">
+                    <div>
+                        <h3>Best minds, makers and means to create new technologies</h3>
+                        <a href="#" class="ui-btn ui-btn ui-icon-wl ui-btn-icon-right ui-nodisc-icon ui-btn-inline">Innovate
+                            with Nokia</a>
+                    </div>
+                </div>
+            </div>
+            <div class="lift-down">
+                <div class="navigation">
+                    <a href="#">< </a>
+                    <div class="pagination">
+                        <span>1</span> / <span>6</span>
+                    </div>
+                    <a href="#"> ></a>
+                </div>
+                <div class="carousel-content">
+                    <div>
+                        <img src="img/garage_liftup_place.jpg" alt="">
+                        <p>Nokia Garage</p>
+                        <h4>Discover where we hack, make, dream and share new ideas</h4>
+                    </div>
+                    <div>
+                        <img src="img/running_liftup.jpg" alt="">
+                        <p>Invent with Nokia</p>
+                        <h4>Grow together with us by helping develop new products and solutions</h4>
+                    </div>
+                    <div>
+                        <img src="img/office_1.jpg" alt="">
+                        <p>NGP capital</p>
+                        <h4>Get financial and strategic value to grow your start-up</h4>
+                    </div>
+                    <div>
+                        <img src="img/le_garage.jpg" alt="">
+                        <p>Le Garage</p>
+                        <h4>A place to foster innovation and the startup spirit in Paris, France</h4>
+                    </div>
+                    <div>
+                        <img src="img/ulmer_banner.jpg" alt="">
+                        <p>Ulmer Garage</p>
+                        <h4>A platform and engine for Nokia Technology Center Ulm's renewal</h4>
+                    </div>
+                    <div>
+                        <img src="img/oen_liftup_2.png.jpeg" alt="">
+                        <p>Open Ecosystem Network</p>
+                        <h4>Improve your projects through collaborative and innovative solutions</h4>
+                    </div>
+                </div>
+                <div class="ui-grid-solo">
+                    <div class="ui-block-a">
+                        <img src="img/nsl_liftup.jpg" alt="">
+                        <p>Nokia Saving Lives supports the UN Sustainable Development goals. It combines a portable LTE
+                            network, drones, analytics, operators, and close cooperation with governmental and
+                            non-governmental organizations.</p>
+                        <a href="#" class="ui-btn ui-btn ui-icon-play ui-btn-icon-left ui-nodisc-icon ui-btn-inline">Nokia
+                            Saving Lives</a>
+                    </div>
+                </div>
+            </div>
+            <div class="fblog">
+                <h3>Uncover more in our blog</h3>
+                <div class="navigation">
+                    <a href="#">< </a>
+                    <div class="pagination">
+                        <span>1</span> / <span>3</span>
+                    </div>
+                    <a href="#"> ></a>
+                </div>
+                <div class="carousel-content">
+                    <div>
+                        <img src="img/blog_1.png.jpeg" alt="">
+                        <p>Blog</p>
+                        <h4>4 key pillars for open source success</h4>
+                    </div>
+                    <div>
+                        <img src="img/blog_factory.png.jpeg" alt="">
+                        <p>Blog</p>
+                        <h4>Manufacturing just got a whole lot more flexible</h4>
+                    </div>
+                    <div>
+                        <img src="img/blog_optical_networking.png.jpeg" alt="">
+                        <p>Blog</p>
+                        <h4>We’ve just reshaped the future of optical networking</h4>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div data-role="footer" style="background-color: #eee!important;">
+            <p>&copy; 2018 HMD Global. All rights reserved.</p>
+            <p>HMD Global Oy is the exclusive licensee of the Nokia brand for phones & tablets.</p>
+        </div>
+    </div>
+    <div class="demo__section demo__section-4 inactive" data-section="4">
+        <div class="demo__menu-btn"></div>
+        <div data-role="header">
+            <a href="#anylink" class="ui-btn ui-icon-logo ui-btn-icon-top ui-btn-right ui-nodisc-icon nobg"></a>
+        </div>
+        <div data-role="main">
+            <div class="caption-text-wrap">
+                <h2>Our blog</h2>
+                <p>let’s talk</p>
+            </div>
+            <form action="" class="ui-filterable" onsubmit="return false" data-ajax="false">
+                <input id="myFilter" type="text"><button></button>
+            </form>
+            <div class="ui-grid-solo">
+                <div class="ui-block-a">
+                    <h3>The TAO to make 5G move</h3>
+                    <img src="img/blog_1.png.jpeg" alt="">
+                    <ul data-role="listview" data-inset="true">
+                        <li data-icon="false">
+                            <a href="#">
+                                <img src="img/volker_ziegler_400x400_21101.jpg">
+                                <h2>Volker Ziegler</h2>
+                                <p>Jul 03 - 3 minute read</p>
+                            </a>
+                        </li>
+                    </ul>
+                    <a href="#" data-role="none">5G</a>
+                </div>
+                <div class="ui-block-a">
+                    <h3>Digital twin technology: double up to meet the challenges of IoT & 5G</h3>
+                    <img src="img/digital_twin_mirror_image_20931.png" alt="">
+                    <ul data-role="listview" data-inset="true">
+                        <li data-icon="false">
+                            <a href="#">
+                                <img src="img/andrew_20burrell_nokia_216_6.jpg">
+                                <h2>Andrew Burrell</h2>
+                                <p>Apr 25 - 5 minute read</p>
+                            </a>
+                        </li>
+                    </ul>
+                    <a href="#" data-role="none" style="right: 35%">5G</a>
+                    <a href="#" data-role="none" style="right: 13%">Geolocation</a>
+                    <a href="#" data-role="none">loT</a>
+                </div>
+                <div class="ui-block-a">
+                    <h3>Industrial internet everywhere thanks to private networks</h3>
+                    <img src="img/nokia_hannover_23042018_twitter_08-750_20986.jpg" alt="">
+                    <ul data-role="listview" data-inset="true">
+                        <li data-icon="false">
+                            <a href="#">
+                                <img src="img/stephan-litjens-263_1151_5.jpg">
+                                <h2>Stephan Litjens</h2>
+                                <p>May 09 - 5 minute read</p>
+                            </a>
+                        </li>
+                    </ul>
+                    <a href="#" data-role="none">Automation</a>
+                </div>
+                <div class="ui-block-a">
+                    <h3>Why you should study AI and Machine Learning and how I did it</h3>
+                    <img src="img/nokia-analytics-banner_18576.jpg" alt="">
+                    <ul data-role="listview" data-inset="true">
+                        <li data-icon="false">
+                            <a href="#">
+                                <img src="img/risto.siilasmaa-168_821.jpg">
+                                <h2>Risto Siilasmaa</h2>
+                                <p>Nov 09 - 5 minute read</p>
+                            </a>
+                        </li>
+                    </ul>
+                    <a href="#" data-role="none">Analytics</a>
+                </div>
+                <div class="ui-block-a">
+                    <h3>Network slicing – solid business case or commercial non-starter?</h3>
+                    <img src="img/oi_industry_01_lr_16x9_rgb_20901.png.jpeg" alt="">
+                    <ul data-role="listview" data-inset="true">
+                        <li data-icon="false">
+                            <a href="#">
+                                <img src="img/riitta-siira-139_501_5.jpg">
+                                <h2>Riitta Siira</h2>
+                                <p>Apr 17 - 5 minute read</p>
+                            </a>
+                        </li>
+                    </ul>
+                    <a href="#" data-role="none" style="right: 12%">Professional services</a>
+                    <a href="#" data-role="none">5G</a>
+                </div>
+                <div class="ui-block-a">
+                    <h3>An enterprising approach to 5G</h3>
+                    <img src="img/5g_in_the_enterprise_new_survey_linkedin_card_20921.jpg" alt="">
+                    <ul data-role="listview" data-inset="true">
+                        <li data-icon="false">
+                            <a href="#">
+                                <img src="img/mark_20175_20916_0.jpg">
+                                <h2>Mark Newman</h2>
+                                <p>Apr 23 - 5 minute read</p>
+                            </a>
+                        </li>
+                    </ul>
+                    <a href="#" data-role="none" style="right: 12%">Enterprises</a>
+                    <a href="#" data-role="none">5G</a>
+                </div>
+                <div class="ui-block-a">
+                    <h2>Mobile World Congress 2018 Barcelona</h2>
+                    <a href="#" data-role="none">Highlights</a>
+                </div>
+                <div class="ui-block-a">
+                    <h2>Watch our latest videos on Nokia YouTube</h2>
+                    <a href="#" data-role="none">Watch now</a>
+                </div>
+                <a href="#" data-role="none">Most Recent</a>
+            </div>
+            <div class="footer-collapsed">
+                <div data-role="collapsibleset" data-iconpos="right" data-collapsed-icon="plus"
+                     data-expanded-icon="minus" class="nobg ui-nodisc-icon">
+                    <div data-role="collapsible">
+                        <h3>For consumers</h3>
+                        <ul data-role="listview">
+                            <li>Phones</li>
+                            <li>Health</li>
+                            <li>OZO audio</li>
+                        </ul>
+                    </div>
+                    <div data-role="collapsible">
+                        <h3>For business</h3>
+                        <ul data-role="listview">
+                            <li>Networks</li>
+                            <li>Health solutions</li>
+                            <li>Media techonlogies</li>
+                        </ul>
+                    </div>
+                    <div data-role="collapsible">
+                        <h3>Innovation</h3>
+                        <ul data-role="listview">
+                            <li>Innovation at Nokia</li>
+                            <li>Nokia Bell Labs</li>
+                        </ul>
+                    </div>
+                    <div data-role="collapsible">
+                        <h3>About</h3>
+                        <ul data-role="listview">
+                            <li>About Nokia</li>
+                            <li>News and events</li>
+                            <li>Blog</li>
+                            <li>Careers</li>
+                            <li>Investors</li>
+                            <li>Sustainability</li>
+                        </ul>
+                    </div>
+                    <div data-role="collapsible" style="border-bottom: 1px dotted #98a2ae;">
+                        <h3>Contact and support</h3>
+                        <ul data-role="listview">
+                            <li>Contact us</li>
+                            <li>Support</li>
+                            <li>Developer Resources and APIs</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div data-role="footer">
+            <p>&copy; 2018 HMD Global. All rights reserved.</p>
+            <p>HMD Global Oy is the exclusive licensee of the Nokia brand for phones & tablets.</p>
+        </div>
+    </div>
+    <div class="clear"></div>
+</div>
+<script src='js/stopExecutionOnTimeout.js?t=1'></script>
+<script>window.jQuery || document.write('<script src="js/jquery-2.1.1.min.js"><\/script>')</script>
+<script type="text/javascript">
+    $(document).ready(function () {
+        var $demo = $('.demo');
+        var numOfSections = $('.demo__section').length;
+        $(document).on('click', '.demo__menu-btn', function () {
+            $demo.addClass('menu-active');
+        });
+        $(document).on('click', '.demo__close-menu', function () {
+            $demo.removeClass('menu-active');
+        });
+        $(document).on('click', '.demo.menu-active .demo__section', function () {
+            var $section = $(this);
+            var index = +$section.data('section');
+            $('.demo__section.active').removeClass('active');
+            $('.demo__section.inactive').removeClass('inactive');
+            $section.addClass('active');
+            $demo.removeClass('menu-active');
+            for (var i = index + 1; i <= numOfSections; i++) {
+                if (window.CP.shouldStopExecution(1)) {
+                    break;
+                }
+                $('.demo__section[data-section=' + i + ']').addClass('inactive');
+            }
+            window.CP.exitedLoop(1);
+        });
+    });
+</script>
+</body>
+</html>

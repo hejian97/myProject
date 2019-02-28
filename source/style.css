@@ -1,0 +1,1341 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: "nokia-pure-headline-ultralight", Arial, Helvetica, sans-serif;
+    font-weight: normal;
+}
+
+.nobg {
+    background: none !important;
+    border: none !important;
+    font-weight: normal !important;
+}
+
+.ui-mobile .ui-page {
+    overflow: hidden;
+}
+
+.ui-popup {
+    overflow-y: auto;
+}
+
+.demo__section {
+    padding: 0;
+    height: unset;
+    overflow-y: auto;
+}
+
+.demo__menu-btn {
+    z-index: 22;
+}
+
+.demo__section-1 .demo__section-heading,
+.demo__section-1 .demo__menu-btn:before,
+.demo__section-2 .demo__section-heading,
+.demo__section-2 .demo__menu-btn:before,
+.demo__section-3 .demo__section-heading,
+.demo__section-3 .demo__menu-btn:before,
+.demo__section-4 .demo__section-heading,
+.demo__section-4 .demo__menu-btn:before {
+    color: #124191;
+    z-index: 2;
+}
+
+.demo__section {
+    background-color: #fff;
+    z-index: 999;
+}
+
+.ui-header {
+    min-height: 3.5em;
+    background-color: #fff !important;
+}
+
+.ui-icon-logo:after {
+    background-image: url(../img/ico-nokia.png);
+    width: 124px;
+    height: 56px;
+    top: -.3em;
+    left: 8%;
+}
+
+.ui-page-theme-a .ui-btn {
+    padding: 28px 62px;
+}
+
+img {
+    width: 100%;
+    display: block;
+}
+
+#lunbo {
+    position: relative;
+}
+
+#lunbo a {
+    position: absolute;
+}
+
+#know {
+    margin-bottom: 3em;
+}
+
+#know h1,
+#who h1,
+#News h1,
+#Investors h1,
+#Careers h1 {
+    margin-left: .5em;
+    font-weight: 100;
+    color: #124191;
+    font-size: 2.625rem;
+    line-height: 52px;
+    line-height: 3.25rem;
+    text-shadow: none;
+}
+
+#know p,
+#who p,
+#Investors p {
+    font-size: 1.125rem;
+    line-height: 2rem;
+    margin-left: 1em;
+    font-weight: 100;
+}
+
+.ui-icon-arrowr:after {
+    background: url(../img/arrow-r.png) no-repeat 0 0;
+    top: 70%;
+}
+
+#know .ui-listview,
+#News .ui-listview,
+#Careers .ui-listview {
+    border: none;
+    border-radius: 0;
+    box-shadow: none;
+    padding: 0 1.2em;
+}
+
+#know .ui-listview > li > a.ui-btn,
+#News .ui-listview > li > a.ui-btn,
+#Careers .ui-listview > li > a.ui-btn {
+    color: #124191;
+    font-weight: normal;
+    padding-left: 0;
+    border: none;
+    border-bottom: 1px solid #bec8d2;
+    background-color: #fff;
+    padding-top: 2em;
+    padding-bottom: .5em;
+}
+
+#who h2 {
+    font-weight: normal;
+    color: #124191;
+}
+
+.navigation {
+    text-align: right;
+    color: #124191;
+    text-shadow: none;
+    font-weight: normal;
+    margin-right: 2em;
+}
+
+.navigation > a.ui-link {
+    width: 20px;
+    height: 20px;
+    display: inline-block;
+    border-radius: 50%;
+    text-align: center;
+    color: #124191;
+    font-weight: normal;
+}
+
+.navigation .pagination {
+    display: inline;
+}
+
+.carousel-content {
+    padding: 0 1em;
+    position: relative;
+    height: 300px;
+    margin-top: .5em;
+}
+
+.carousel-content > div {
+    float: left;
+    position: absolute;
+    background-color: #eee;
+    border-radius: 5px;
+    font-weight: normal !important;
+    margin-right: 1em;
+    display: none;
+    padding-bottom: .5em;
+}
+
+.carousel-content > div:first-child {
+    padding: 30px 30px 20px 25px;
+    display: block;
+}
+
+.carousel-content > div:first-child h3 {
+    margin: .4em 0;
+    color: #124191;
+    padding-left: 0;
+}
+
+.carousel-content > div:first-child h4 {
+    padding-left: 0;
+}
+
+.carousel-content > div:first-child p {
+    margin-left: 0 !important;
+    font-size: .9em;
+}
+
+.carousel-content > div h3,
+.carousel-content > div h4 {
+    padding-left: 25px;
+
+}
+
+.carousel-content > div h3 {
+    color: #124191;
+}
+
+.carousel-content > div h4 {
+    color: #4d5766;
+    padding-top: .7em;
+}
+
+#News .ui-grid-solo {
+    margin-top: 2em;
+}
+
+#News .ui-grid-solo:nth-of-type(1) .ui-block-a {
+    height: 520px;
+    background: url(../img/skiing.png) no-repeat;
+    background-size: cover;
+    background-position: center;
+    margin-bottom: .5em;
+    position: relative;
+}
+
+#News .ui-grid-solo:nth-of-type(1) .ui-block-a:last-child {
+    background: url(../img/divers.jpg) no-repeat;
+    background-position: 35% 50%;
+}
+
+#News .ui-grid-solo:nth-of-type(1) .ui-block-a > div {
+    background-color: rgba(255, 255, 255, .8);
+    height: 200px;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    padding: 3px 1% 40px 22px;
+}
+
+#News .ui-grid-solo:nth-of-type(1) .ui-block-a > div p {
+    font-size: 1em;
+    color: #4d5766;
+    margin-left: 1.5em;
+    margin-top: 24px;
+}
+
+#News .ui-grid-solo:nth-of-type(1) .ui-block-a > div h2 {
+    margin-left: .5em;
+    font-weight: 100;
+    color: #124191;
+    font-size: 2rem;
+    line-height: 52px;
+    line-height: 3.25rem;
+    text-shadow: none;
+}
+
+#News > h2 {
+    font-size: 2rem;
+    line-height: 2.75rem;
+    color: #124191;
+}
+
+#News .ui-grid-solo:nth-of-type(2) {
+    padding: 1em;
+}
+
+#News .ui-grid-solo:nth-of-type(2) .ui-block-a {
+    height: 214px;
+    padding-left: 4em;
+    position: relative;
+}
+
+#News .ui-grid-solo:nth-of-type(2) .ui-block-a > div h3 {
+    font-size: 1.8rem;
+    line-height: 2.75rem;
+    color: #124191;
+}
+
+#News .ui-grid-solo:nth-of-type(2) .ui-block-a > div p {
+    line-height: 2.75rem;
+    color: #273142;
+}
+
+#News .ui-grid-solo:nth-of-type(2) .ui-block-a > div a {
+    display: block;
+    width: 41px;
+    height: 41px;
+    border: 1px solid #ccc;
+    padding: .8em;
+    position: absolute;
+    top: 0%;
+    left: 2%;
+}
+
+#Investors {
+    padding: 1.5em;
+}
+
+#Investors > h2 {
+    font-size: 2rem;
+    line-height: 2.75rem;
+    color: #124191;
+    font-weight: normal;
+}
+
+#Investors .ui-block-a p {
+    color: #888888;
+    font-size: .9rem;
+    line-height: 1rem;
+}
+
+#Investors .ui-block-a h5 {
+    margin-left: .9em;
+    color: #124191;
+    font-size: 1rem;
+    margin-bottom: 2em;
+}
+
+.ui-icon-download:after {
+    background-image: url(../img/download.png);
+}
+
+#Investors .ui-btn {
+    font-size: .8rem;
+    color: #124191;
+    width: 100%;
+    text-align: left;
+    padding-left: 32px;
+    padding-bottom: .5em;
+    padding-top: .5em;
+    margin-top: 0;
+    border-bottom: 1px solid #bec8d2 !important;
+}
+
+.ui-icon-down:after {
+    background-image: url(../img/down.png);
+    background-color: #fff;
+}
+
+#Investors .ui-select .ui-btn, option {
+    background-color: #fff;
+    padding: 1em 0;
+    padding-left: .5em;
+    border-radius: 0;
+    box-shadow: none;
+    border-color: #bec8d2;
+    color: #bec8d2;
+    text-shadow: none;
+}
+
+#Investors .ui-select {
+    appearance: none;
+    -moz-appearance: none;
+    -webkit-appearance: none;
+}
+
+#Investors .ui-select option {
+    color: #124191;
+}
+
+#Investors .ui-field-contain {
+    padding-bottom: 0;
+}
+
+#Investors .carousel-content h4 {
+    color: #124191;
+    padding-right: 1em;
+}
+
+#Careers .ui-grid-solo .ui-block-a {
+    height: 420px;
+    background: url(../img/jobs.png) no-repeat;
+    background-size: cover;
+    background-position: center;
+    margin-bottom: .5em;
+    position: relative;
+    margin-top: 2em;
+    margin-bottom: 0;
+}
+
+#Careers .ui-grid-solo .ui-block-a > div {
+    height: 200px;
+    background-color: rgba(255, 255, 255, .8);
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+
+#Careers .ui-grid-solo .ui-block-a > div h2 {
+    font-size: 2rem;
+    line-height: 2.75rem;
+    color: #124191;
+    margin-left: .5em;
+}
+
+#Careers .ui-grid-solo .ui-block-a > div .ui-btn {
+    background-color: transparent;
+    min-width: 225px;
+    border: 1px solid #124191;
+    display: inline-block;
+    font-size: 1rem;
+    padding: .5em;
+    text-align: left;
+    font-weight: normal;
+    color: #124191;
+    margin-left: 1em;
+    margin-top: 1em;
+}
+
+#Careers .ui-icon-arrowr:after {
+    top: 58%;
+}
+
+.ui-icon-facebook:after {
+    background-image: url(../img/web-facebook.png);
+}
+
+.ui-icon-Twitter:after {
+    background-image: url(../img/Twitter.png);
+}
+
+.ui-icon-IN:after {
+    background-image: url(../img/IN.png);
+}
+
+.ui-icon-glassdoor:after {
+    background-image: url(../img/glassdoor.png);
+}
+
+#Careers .follow {
+    background-color: #edf3f5;
+}
+
+#Careers .follow h3 {
+    font-size: 1.4rem;
+    line-height: 2.75rem;
+    color: #124191;
+    margin-left: .5em;
+}
+
+#Careers .follow .ui-btn-icon-right:after {
+    width: 26px;
+    height: 26px;
+    border-radius: 0;
+}
+
+#Careers .follow .ui-btn {
+    padding: 1.5em;
+    padding-left: 1.2em;
+    border: 1px solid #bec8d2 !important;
+}
+
+#Careers .follow .ui-btn:nth-of-type(1) {
+    margin-left: 2em;
+}
+
+#innovation {
+    position: relative;
+    height: 450px;
+    width: 100%;
+    z-index: 20;
+    overflow: hidden;
+}
+
+.demo__section-2 .grid-container {
+    padding: 0 50px;
+    background-color: #eee;
+    padding-top: 10px;
+}
+
+.demo__section-2 .grid-container li {
+    background-color: #eee;
+}
+
+.demo__section-2 .grid-container li span {
+    margin-bottom: .7em;
+    display: block;
+    font-weight: 600;
+    color: #273144;
+    font-size: 1.1rem;
+}
+
+.demo__section-2 .grid-container .ui-btn {
+    background-color: #eee;
+    padding: 10px 0;
+    border: none;
+    text-shadow: none;
+    font-weight: normal;
+    color: #4d5766;
+}
+
+div[data-role="footer"] {
+    text-align: center;
+    font-size: .9rem;
+    color: #273144 !important;
+    padding: .5em .2em;
+    background-color: #fff !important;
+    border: none;
+}
+
+.demo__section-3 #innovation video {
+    width: auto;
+    height: 450px;
+    display: block;
+    position: absolute;
+    z-index: 1;
+    left: -50%;
+}
+
+#innovation .text-wrapper {
+    text-align: center;
+    position: absolute;
+    color: #fff;
+    width: 100%;
+    z-index: 20;
+    top: 30%;
+}
+
+#innovation .text-wrapper h1,
+#innovation .text-wrapper p {
+    opacity: 0;
+}
+
+.demo__section-3 .ui-grid-solo .ui-block-a {
+    height: 520px;
+    background: url(../img/bell_labs_l.jpg);
+    background-size: cover;
+    color: #fff;
+    text-shadow: none;
+    margin-bottom: 1.5em;
+}
+
+.demo__section-3 .ui-grid-solo .ui-block-a div {
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+
+.demo__section-3 .ui-grid-solo .ui-block-a div > h3 {
+    margin-left: .5em;
+    line-height: 2.75rem;
+    font-size: 2rem;
+    font-weight: normal;
+    position: absolute;
+    top: 15%;
+}
+
+.demo__section-3 .ui-grid-solo .ui-block-a div > a {
+    background-color: transparent;
+    min-width: 225px;
+    border: 1px solid #fff;
+    display: inline-block;
+    font-size: 1rem;
+    padding: .5em;
+    text-align: left;
+    font-weight: normal;
+    color: #fff;
+    margin-left: 1em;
+    margin-top: 1em;
+    position: absolute;
+    bottom: 20%;
+    text-shadow: none;
+}
+
+.ui-icon-wl:after {
+    background-image: url(../img/wl.png);
+}
+
+.demo__section-3 .carousel-content h4 {
+    font-size: 1.375rem;
+    line-height: 2rem;
+    color: #124191;
+}
+
+.demo__section-3 .carousel-content {
+    height: 520px;
+}
+
+.demo__section-3 .carousel-content > div:first-child {
+    padding: 0;
+}
+
+.demo__section-3 .carousel-content h4 {
+    margin-left: 1em;
+    margin-bottom: 1em;
+    padding: 0;
+    margin-right: .5em;
+}
+
+.demo__section-3 .carousel-content > div p {
+    margin-left: 1.5em !important;
+    margin-top: 1em;
+}
+
+.demo__section-3 .carousel-content > div:first-child p {
+    margin-left: 1.5em !important;
+    margin-top: 1em;
+}
+
+.lift-up .ui-grid-solo .ui-block-a,
+.lift-down .ui-grid-solo .ui-block-a {
+    background: none;
+    height: initial;
+    position: relative;
+    padding: 15px;
+}
+
+.lift-up .ui-grid-solo .ui-block-a p,
+.lift-down .ui-grid-solo .ui-block-a p {
+    color: #4d5766;
+    margin-top: .5em;
+}
+
+.lift-up .ui-grid-solo .ui-block-a a,
+.lift-down .ui-grid-solo .ui-block-a a {
+    background-color: rgba(255, 255, 255, .7);
+    min-width: 225px;
+    display: inline-block;
+    font-size: 1rem;
+    padding: .5em;
+    padding-left: 40px;
+    text-align: left;
+    font-weight: normal;
+    color: #4d5766;
+    margin-top: 1em;
+    position: absolute;
+    text-shadow: none;
+    top: 30%;
+    left: 12%;
+    border-radius: 5px;
+}
+
+.ui-icon-play:after {
+    background-image: url(../img/play.png);
+    width: 36px;
+    height: 36px;
+    border-radius: 0;
+    top: 32%;
+    left: 0;
+}
+
+.lift-down .ui-grid-solo .ui-block-a a {
+    left: 20%;
+}
+
+.fblog > h3 {
+    font-size: 1.4rem;
+    line-height: 2.75rem;
+    color: #124191;
+    margin-left: .5em;
+}
+
+/************/
+.caption-text-wrap {
+    position: relative;
+    height: 320px;
+    width: 100%;
+    background: url(../img/marquee.jpg) no-repeat;
+    background-size: cover;
+}
+
+.caption-text-wrap > h2,
+.caption-text-wrap > p {
+    position: absolute;
+    line-height: 3.375rem;
+    color: #fff;
+    text-shadow: none;
+    margin-left: 1em;
+}
+
+.caption-text-wrap > h2 {
+    font-size: 3.5rem;
+    top: 40%;
+    margin-left: .5em;
+}
+
+.caption-text-wrap > p {
+    font-size: 35px;
+    bottom: 20%;
+}
+
+.demo__section-4 .ui-filterable {
+    margin-top: 1em;
+    text-align: center;
+    vertical-align: middle;
+}
+
+.demo__section-4 .ui-filterable > div {
+    width: 60%;
+    border: 1px solid #124191;
+    display: inline-block;
+    border-radius: 0;
+    border-right: 0;
+    padding-right: 3em;
+    background: url(../img/麦克风.png) no-repeat;
+    background-position: 96% 50%;
+}
+
+.demo__section-4 .ui-filterable .ui-input-text input {
+    min-height: initial;
+}
+
+.demo__section-4 .ui-filterable button {
+    width: 50px;
+    height: 37.1875px;
+    display: inline-block;
+    padding: 13px 20px;
+    border-radius: 0;
+    border: none;
+    background: #124191 url(../img/搜索.png) no-repeat;
+    background-position: 50% 50%;
+}
+
+.demo__section-4 .ui-grid-solo {
+    padding: 15px;
+}
+
+.demo__section-4 .ui-listview {
+    border-radius: 0;
+    border: none;
+    box-shadow: none;
+}
+
+.demo__section-4 .ui-listview .ui-li-has-thumb > .ui-btn > img:first-child {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    margin: .2em;
+    margin-left: 1em;
+    margin-top: .4em;
+}
+
+.demo__section-4 .ui-listview > .ui-li-has-thumb > .ui-btn {
+    padding-top: .5em;
+    padding-bottom: .5em;
+    padding-left: 4em;
+    min-height: 3em;
+    box-shadow: none;
+    border: none;
+    background-color: #fff;
+    margin-top: 1em;
+}
+
+.demo__section-4 .ui-listview > .ui-li-has-thumb > .ui-btn p,
+.demo__section-4 .ui-listview > .ui-li-has-thumb > .ui-btn h2 {
+    margin-top: 2px;
+    margin-bottom: 2px;
+}
+
+.demo__section-4 .ui-listview > .ui-li-has-thumb > .ui-btn h2 {
+    font-weight: normal;
+    font-size: .7em;
+    color: #124191;
+}
+
+.demo__section-4 .ui-listview > .ui-li-has-thumb > .ui-btn p {
+    font-size: .6rem;
+}
+
+.demo__section-4 .ui-block-a {
+    height: 420px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    position: relative;
+    margin-bottom: 1.5em;
+}
+
+.demo__section-4 .ui-block-a h3 {
+    color: #124191;
+    line-height: 24px;
+    font-size: 20px;
+    padding-top: 2em;
+    padding-bottom: 2em;
+    margin-left: 1em;
+}
+
+.demo__section-4 .ui-block-a > a {
+    border: 1px solid #124191;
+    border-radius: 5px;
+    font-weight: normal;
+    text-shadow: none;
+    position: absolute;
+    bottom: .5em;
+    right: 5%;
+    font-size: .6rem;
+    color: #124191;
+    text-align: center;
+    vertical-align: middle;
+    padding: .2em .2em 0 .2em;
+    display: block;
+}
+
+.demo__section-4 .ui-grid-solo .ui-block-a:nth-last-child(2),
+.demo__section-4 .ui-grid-solo .ui-block-a:nth-last-child(3) {
+    height: 320px;
+    background-image: url(../img/mwc_hi-res_no_words.jpg);
+}
+
+.demo__section-4 .ui-grid-solo .ui-block-a:nth-last-child(2) {
+    background-image: url(../img/parachute_man_1.jpg);
+}
+
+.demo__section-4 .ui-grid-solo .ui-block-a:nth-last-child(2) h2,
+.demo__section-4 .ui-grid-solo .ui-block-a:nth-last-child(3) h2 {
+    line-height: 2.75rem;
+    font-size: 28px;
+    margin-left: 1em;
+    color: #fff;
+    text-shadow: none;
+    font-weight: normal;
+    margin-top: 1em;
+}
+
+.demo__section-4 .ui-grid-solo .ui-block-a:nth-last-child(2) a,
+.demo__section-4 .ui-grid-solo .ui-block-a:nth-last-child(3) a {
+    border-radius: 0;
+    padding: 1em;
+    border-color: #fff;
+    color: #fff;
+    font-size: 15px;
+    display: block;
+    right: initial;
+    left: 8%;
+    top: 40%;
+    bottom: initial;
+}
+
+.demo__section-4 .ui-grid-solo > a {
+    width: 100%;
+    text-align: center;
+    border: 1px solid #979797;
+    display: inline-block;
+    font-size: 20px;
+    color: #124191;
+    font-weight: bold;
+    padding: 12px 20px 12px !important;
+}
+
+.footer-collapsed {
+    padding: 0 15px;
+    background-color: #f6f6f6;
+}
+
+.ui-icon-plus:after {
+    background-image: url(../img/加.png);
+}
+
+.ui-icon-minus:after {
+    background-image: url(../img/减.png);
+}
+
+.footer-collapsed .ui-collapsible-set {
+    border-radius: 0;
+    border: none;
+    box-shadow: none;
+}
+
+.footer-collapsed .ui-collapsible-set .ui-btn {
+    padding-top: 1.5em;
+    padding-bottom: 1em;
+    padding-left: .5em;
+    border: none;
+    border-top: 1px dotted #98a2ae;
+    box-shadow: none;
+    font-weight: normal;
+    color: #273142;
+    font-size: 1rem;
+    line-height: 1rem;
+}
+
+.footer-collapsed .ui-collapsible-inset:first-child .ui-collapsible-heading .ui-btn {
+    border-top: none;
+}
+
+.footer-collapsed .ui-listview {
+    padding-left: 12px;
+    background-color: #eee;
+    border: none;
+    box-shadow: none;
+}
+
+.footer-collapsed .ui-listview > li {
+    background-color: #eee;
+    border: none;
+    box-shadow: none;
+}
+
+.demo__section-1 .ui-collapsible-inset {
+    border-radius: 0;
+    margin-top: 0;
+    border: none;
+    box-shadow: none;
+}
+
+.demo__section-1 .ui-collapsible-heading-toggle {
+    padding-top: .8em;
+    padding-bottom: .8em;
+    padding-left: 1em;
+    padding-right: 70%;
+    border: none;
+    box-shadow: none;
+    color: #4d5766;
+    font-weight: normal;
+}
+
+.ui-icon-shang:after {
+    background-image: url(../img/shang.png);
+    right: 47%;
+}
+
+.ui-icon-xia:after {
+    background-image: url(../img/xia.png);
+    right: 47%;
+}
+
+.demo__section-1 .ui-collapsible-inset .ui-listview > li > a.ui-btn {
+    padding-top: .5em;
+    padding-bottom: .5em;
+    text-align: center;
+    border: none;
+    color: #98a2ae;
+    font-weight: normal;
+}
+
+.navigation-bar {
+    position: relative;
+}
+
+.navigation-bar > a {
+    position: absolute;
+    margin: 0 !important;
+    padding: 0 !important;
+    padding: .8em 1.2em !important;
+    right: 0;
+    top: 0;
+    border: none !important;
+    background-color: #124191 !important;
+    color: #fff !important;
+    font-weight: normal !important;
+    text-shadow: none !important;
+}
+
+#Section_1 {
+    text-align: center;
+    position: relative;
+}
+
+#Section_1 > h1 {
+    font-size: 45px;
+    display: block;
+    color: #fff;
+    line-height: 1.22;
+    margin: .2em 0 !important;
+    font-weight: normal !important;
+    z-index: 99;
+    position: absolute;
+    top: 45%;
+    width: 100%;
+}
+
+#Section_1 > h1:nth-of-type(2) {
+    top: 54%;
+}
+
+.topnav {
+    padding-top: 4.6em !important;
+    font-weight: normal !important;
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+    color: #fff !important;
+    font-size: .8em !important;
+    text-shadow: none !important;
+    padding-bottom: .2em !important;
+}
+
+.ui-icon-nav1:after {
+    background-image: url(../img/处理器.png);
+    border-radius: 5px;
+    font-weight: bold;
+    width: 50px;
+    height: 50px;
+    border: 1px solid #fff;
+    left: 35%;
+    top: 0;
+}
+
+.ui-icon-nav2:after {
+    background-image: url(../img/屏幕.png);
+    border-radius: 5px;
+    font-weight: bold;
+    width: 50px;
+    height: 50px;
+    border: 1px solid #fff;
+    left: 35%;
+    top: 0;
+}
+
+.ui-icon-nav3:after {
+    background-image: url(../img/摄像头.png);
+    border-radius: 5px;
+    font-weight: bold;
+    width: 50px;
+    height: 50px;
+    border: 1px solid #fff;
+    left: 35%;
+    top: 0;
+}
+
+#Section_1 .ui-grid-b {
+    position: absolute;
+    width: 100%;
+    z-index: 99;
+    padding: 0 15%;
+    top: 64%;
+}
+
+#Section_1 > a {
+    position: absolute;
+    text-decoration: none;
+    color: #fff !important;
+    text-shadow: none !important;
+    border-radius: 25px;
+    border: 1px solid #fff;
+    font-weight: normal;
+    font-size: .8em;
+    background-color: transparent !important;
+    display: inline-block;
+    height: 38px;
+    width: 98px;
+    padding: .2em !important;
+    padding-top: .8em !important;
+    z-index: 99;
+    bottom: 15%;
+}
+
+#Section_1 video {
+    width: auto;
+    height: 180px;
+}
+
+#Section_2 {
+    text-align: center;
+    position: relative;
+}
+
+#Section_2 .ui-grid-c {
+    position: absolute;
+    bottom: 3%;
+    width: 100%;
+}
+
+.ui-icon-android:after {
+    background-image: url(../img/安卓.png);
+    border-radius: 5px;
+    font-weight: bold;
+    width: 50px;
+    height: 50px;
+    border: 1px solid #273142;
+    left: 35%;
+    top: 0;
+}
+
+.ui-icon-CPU:after {
+    background-image: url(../img/CPU.png);
+    border-radius: 5px;
+    font-weight: bold;
+    width: 50px;
+    height: 50px;
+    border: 1px solid #273142;
+    left: 35%;
+    top: 0;
+}
+
+.ui-icon-pingmu:after {
+    background-image: url(../img/屏幕分辨率.png);
+    border-radius: 5px;
+    font-weight: bold;
+    width: 50px;
+    height: 50px;
+    border: 1px solid #273142;
+    left: 35%;
+    top: 0;
+}
+
+.ui-icon-xiangsu:after {
+    background-image: url(../img/屏幕竖屏.png);
+    border-radius: 5px;
+    font-weight: bold;
+    width: 50px;
+    height: 50px;
+    border: 1px solid #273142;
+    left: 35%;
+    top: 0;
+}
+
+.ui-icon-deng:after {
+    background-image: url(../img/交通信号灯.png);
+    border-radius: 5px;
+    font-weight: bold;
+    width: 50px;
+    height: 50px;
+    border: 1px solid #273142;
+    left: 35%;
+    top: 0;
+}
+
+.ui-icon-shexiang:after {
+    background-image: url(../img/摄像.png);
+    border-radius: 5px;
+    font-weight: bold;
+    width: 50px;
+    height: 50px;
+    border: 1px solid #273142;
+    left: 35%;
+    top: 0;
+}
+
+.ui-icon-AI:after {
+    background-image: url(../img/机器人.png);
+    border-radius: 5px;
+    font-weight: bold;
+    width: 50px;
+    height: 50px;
+    border: 1px solid #273142;
+    left: 35%;
+    top: 0;
+}
+
+.ui-icon-tu:after {
+    background-image: url(../img/图片.png);
+    border-radius: 5px;
+    font-weight: bold;
+    width: 50px;
+    height: 50px;
+    border: 1px solid #273142;
+    left: 35%;
+    top: 0;
+}
+
+#Section_2 .ui-btn {
+    color: #273142 !important;
+}
+
+#Section_3 {
+    text-align: center;
+    position: relative;
+}
+
+#Section_3 > div {
+    position: absolute;
+    top: 2%;
+}
+
+#Section_3 h1 {
+    padding-top: 2em;
+    font-size: 28px;
+    color: #4d5766;
+    font-weight: normal;
+    line-height: 1.22;
+}
+
+#Section_3 p {
+    color: #4d5766;
+    font-size: 14px;
+    line-height: 1.43;
+    padding: 0 1em;
+}
+
+#Section_4 {
+    position: relative;
+    text-align: center;
+}
+
+#Section_4 > div {
+    position: absolute;
+    top: 3%;
+    width: 100%;
+    color: #fff;
+    text-shadow: none;
+}
+
+#Section_4 > div ul {
+    text-align: left;
+    font-size: 14px;
+    line-height: 1.43;
+    padding: 0 40px;
+}
+
+#Section_4 .ui-grid-b {
+    width: 100%;
+    padding: 0 20%;
+    margin-top: 1em;
+}
+
+.ui-icon-daohang:after {
+    background-image: url(../img/导航栏.png);
+    border-radius: 5px;
+    font-weight: bold;
+    width: 50px;
+    height: 50px;
+    border: 1px solid #fff;
+    left: 35%;
+    top: 0;
+}
+
+.ui-icon-shibie:after {
+    background-image: url(../img/识别.png);
+    border-radius: 5px;
+    font-weight: bold;
+    width: 50px;
+    height: 50px;
+    border: 1px solid #fff;
+    left: 35%;
+    top: 0;
+}
+
+.ui-icon-shengdian:after {
+    background-image: url(../img/最强省电.png);
+    border-radius: 5px;
+    font-weight: bold;
+    width: 50px;
+    height: 50px;
+    border: 1px solid #fff;
+    left: 35%;
+    top: 0;
+}
+
+#product {
+    text-align: center;
+}
+
+#product > h4 {
+    font-size: 16px;
+    line-height: 26px;
+    width: 100%;
+    color: #4d5766;
+    margin-bottom: 15px;
+    margin-top: 1em;
+}
+
+#product > h2 {
+    color: #4d5766;
+    width: 100%;
+    margin-bottom: 2.5em;
+}
+
+#product > #img_show {
+    position: relative;
+    height: 172px;
+    overflow: hidden;
+    width: 100%;
+    padding: 0 25%;
+}
+
+#product > #img_show a {
+    position: absolute;
+    display: block;
+    width: 50%;
+}
+
+#product > ul {
+    display: inline-block;
+}
+
+#product > ul li {
+    float: left;
+    width: 30px;
+    height: 30px;
+    border: 1px solid transparent;
+    border-radius: 50%;
+    margin: .5em;
+    cursor: pointer;
+    list-style: none;
+}
+
+#product > ul li:nth-of-type(1) {
+    border: 1px solid #000;
+}
+
+#product > ul li span {
+    width: 100%;
+    height: 100%;
+    border: 6px solid #fff;
+    border-radius: 50%;
+    margin: .5em;
+    display: block;
+    margin: 0;
+    padding: 0;
+}
+
+#product > #tablan {
+    width: 100%;
+    padding: 10%;
+}
+
+#product > #tablan > a {
+    display: inline-block;
+    width: 50%;
+    padding: 0;
+    margin: 0;
+    float: left;
+    border: none;
+    padding: .5em 0;
+    background-color: #fff;
+    border: 1px solid #283242;
+    color: #283242;
+    text-shadow: none;
+    font-weight: normal;
+}
+
+#product > #tablan > a:nth-of-type(1) {
+    border-radius: 25px 0 0 25px;
+    background-color: #283242;
+    color: #fff;
+}
+
+#product > #tablan > a:nth-of-type(2) {
+    border-radius: 0 25px 25px 0;
+}
+
+#product > #tab_show {
+    position: relative;
+    margin-top: 2em;
+}
+
+#product > #tab_show > div {
+    position: absolute;
+    display: none;
+    padding: 0 20px;
+    width: 80%;
+    margin: 0 10%;
+    text-align: left;
+}
+
+#product > #tab_show > div:nth-of-type(1) {
+    display: block;
+}
+
+#product > #tab_show li {
+    color: #8591a3;
+}

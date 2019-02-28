@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="source/jquery.mobile-1.4.5.min.css">
+	<script src="source/jquery-1.11.1.min.js"></script>
+	<script type="text/javascript">
+		//解决低版本谷歌浏览器的安全限制
+		$(document).bind('mobileinit',function(){
+			$.mobile.changePage.defaults.changeHash = false;
+			$.mobile.hashListeningEnabled = false;
+			$.mobile.pushStateEnabled = false;
+		});
+		$(function(){
+			$('.ui-content').height($(window).height());
+			$('.bg').height($(window).height());
+		})
+	</script>
+	<script src="source/jquery.mobile-1.4.5.min.js"></script>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<style>
+		*{
+			font-family: "nokia-pure-headline-ultralight",Arial,Helvetica,sans-serif!important;
+			text-shadow: none!important;
+		}
+		.ui-content{
+			background-image:url(img/pexels-photo-360438.jpeg)!important;
+			background-position:50% 50%;
+			padding: 0;
+		}
+		.bg{
+			background-color: rgba(0,0,0,.7);
+			width: 100%;
+			text-align: center;
+			position: relative;
+		}
+		.bg>div{
+			position: absolute;
+			top: 30%;
+			width: 100%;
+		}
+		.bg>h2{
+			position: absolute;
+			top: 15%;
+			left: 18%;
+			color: #fff;
+		}
+		a{
+			display:inline-block;
+			padding: .5em;
+			border: 1px solid  #ccc;
+			color: #fff!important;
+			text-shadow: none!important;
+			margin: .2em 0;
+			padding-left: 2.5em;
+			text-decoration: none;
+			width: 108px;
+			text-align: left;
+			font-weight:600!important;
+			font-weight: normal!important;
+		}
+		a.ui-link{
+			text-shadow: none!important;
+		}
+		.bg>div a:nth-of-type(1){
+			background: url(img/微信.png) no-repeat;
+			background-position: 5% 50%;
+		}
+		.bg>div a:nth-of-type(2){
+			background: url(img/QQ.png) no-repeat;
+			background-position: 5% 50%;
+		}
+		.bg>div a:nth-of-type(3){
+			background: url(img/手机.png) no-repeat;
+			background-position: 5% 50%;
+		}
+		.ui-content .tips{
+			width: 100%;
+			background-color: rgba(65,105,225,.8);
+			text-align: center;
+			color: #fff;
+			font-weight: bold;
+			font-size: 1.2rem;
+			position: fixed;
+			z-index: 999;
+			top: -20%;
+			padding: .3em 0;
+		}
+	</style>
+	<script>
+		$(function(){
+			$('.bg>div a:nth-of-type(1)').click(function(){
+				$('.ui-content .tips').animate({"top":"0%"}).text('请在微信中打开')
+				setTimeout(function(){
+				$('.ui-content .tips').animate({"top":"-20%"})
+				},2000);
+			})
+			$('.bg>div a:nth-of-type(2)').click(function(){
+				$('.ui-content .tips').animate({"top":"0%"}).text('请在QQ中打开')
+				setTimeout(function(){
+				$('.ui-content .tips').animate({"top":"-20%"})
+				},2000);
+			})
+			$('.bg>div a:nth-of-type(3)').click(function(){
+				window.location.href = "phonelogin.html";
+			})
+		})
+	</script>
+</head>
+<body>
+	<div data-role="page" id="home">
+		<div data-role="main" class="ui-content">
+			<div class="tips">
+				<p>请在微信中打开</p>
+			</div>
+			<div class="bg">
+				<h2>请选择您的登录方式</h2>
+				<div>
+					<a href="#"><span>微信</span>快速登录</a><br>
+					<a href="#"><span>QQ</span>快速登录</a><br>
+					<a href="#"><span>手机</span>登录</a>
+				</div>
+			</div>
+		</div>
+	</div>
+</body>
+</html>
